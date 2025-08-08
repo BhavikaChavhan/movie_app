@@ -1,12 +1,78 @@
-# React + Vite
+# 🎬 React TMDB Movie App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Bhavika Chavhan – Fresher ReactJS Developer**  
+_This project is part of my learning journey and showcases my understanding of React, APIs, and Tailwind CSS._
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📌 Overview
 
-## Expanding the ESLint configuration
+This is a simple and responsive movie web application built using **ReactJS**, **Vite**, **Tailwind CSS**, and the **TMDB API**.  
+It displays popular, top-rated, and upcoming movies. It also allows users to search for movies and view detailed information including the cast.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🚀 Features
+
+- ✅ Home page with **Popular Movies**
+- ✅ Separate pages for **Top Rated** & **Upcoming** movies
+- ✅ **Search functionality** using TMDB API
+- ✅ **Movie detail** page with cast list
+- ✅ **Responsive UI** using Tailwind CSS
+- ✅ **Pagination** support
+- ✅ **Responsive Navbar** with Hamburger Menu for mobile
+- ✅ **Footer** with copyright
+
+---
+
+## 🛠️ Tech Stack
+
+- **React JS**
+- **React Router DOM**
+- **Vite**
+- **Tailwind CSS**
+- **TMDB API**
+
+---
+
+## 🧱 Folder Structure
+
+src/
+├── components/
+│ ├── MovieCard.jsx
+│ ├── Navbar.jsx
+│ ├── Footer.jsx ← newly added
+│ └── Pagination.jsx
+>>>>>>> 8f8871d (Updated project with responsive navbar and footer)
+├── pages/
+│ ├── Home.jsx
+│ ├── TopRated.jsx
+│ ├── Upcoming.jsx
+│ ├── Search.jsx
+│ └── MovieDetail.jsx
+<<<<<<< HEAD
+│
+├── App.jsx
+└── main.jsx
+=======
+├── App.jsx
+└── main.jsx
+
+---
+
+
+## 📱 Responsive Design
+
+- Navbar includes a **hamburger menu** for mobile view.
+- All pages are responsive across screen sizes (mobile, tablet, desktop).
+- Designed using **Tailwind utility classes** only.
+
+---
+
+## 🔑 API Used
+
+- [TMDB API](https://www.themoviedb.org/documentation/api)
+- API Key used: _c45a857c193f6302f2b5061c3b85e743_
+
+---
+
