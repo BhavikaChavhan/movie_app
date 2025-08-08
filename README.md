@@ -43,18 +43,15 @@ src/
 │ ├── Navbar.jsx
 │ ├── Footer.jsx ← newly added
 │ └── Pagination.jsx
->>>>>>> 8f8871d (Updated project with responsive navbar and footer)
+
 ├── pages/
 │ ├── Home.jsx
 │ ├── TopRated.jsx
 │ ├── Upcoming.jsx
 │ ├── Search.jsx
 │ └── MovieDetail.jsx
-<<<<<<< HEAD
+
 │
-├── App.jsx
-└── main.jsx
-=======
 ├── App.jsx
 └── main.jsx
 
